@@ -27,4 +27,4 @@
 
 8. Найти сохраненную работу вы сможете на странице [Dashboard](https://codepen.io/dashboard/), в разделе «Pens», отфильтровав пены по значению «Fork».
 
-![Раздел Pens](..img/forked.gif)
+![Раздел Pens](../img/forked.gif)
