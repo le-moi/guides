@@ -1,0 +1,1 @@
+Шпаргалка размещена на Github-pages по адресу - [https://ikrieg.github.io/guides/wm-cheat-sheet](https://ikrieg.github.io/guides/wm-cheat-sheet)
