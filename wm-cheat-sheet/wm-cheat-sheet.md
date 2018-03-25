@@ -15,25 +15,25 @@
   <tbody>
     <tr>
       <td>Вставить параграф</td>
-      <td><code><p>Текст параграфа</p></code>
+      <td><code>&#060;p>Текст параграфа</p></code>
       </td>
       <td><p>Первый параграф</p><p>Второй параграф</p></td>
     </tr>
     <tr>
       <td>Перенести текст на строку ниже</td>
-      <td><code>Текст ниже будет с новой строки<br></code></td>
+      <td><code>Текст ниже будет с новой строки&#060;br></code></td>
       <td>В отличие от тега p,<br> тег br не создает пустую строку</td>
     </tr>
     <tr>
       <td>Разместить заголовок</td>
-      <td><code><h5>Существует шесть уровней заголовков: от h1 до h6</h5></code></td>
+      <td><code>&#060;h5>Существует шесть уровней заголовков: от h1 до h6</h5></code></td>
       <td><h5>На странице должен быть только один заголовок первого уровня</h5></td>
     </tr>
     <tr>
       <td>Добавить цитату</td>
       <td>
         <code>
-          <blockquote>
+          &#060;blockquote>
           Я помню чудное мгновенье!
           </blockquote>
         </code>
@@ -46,32 +46,32 @@
     </tr>
     <tr>
       <td>Выделить текст жирным</td>
-      <td><code><b>Я - жирный текст</b></code></td>
+      <td><code>&#060;b>Я - жирный текст</b></code></td>
       <td><b>Визуально, текст идентичен важному.</b></td>
     </tr>
     <tr>
       <td>Выделить важный текст</td>
-      <td><code><strong>Я – важный текст!</strong></code></td>
+      <td><code>&#060;strong>Я – важный текст!</strong></code></td>
       <td><strong>Но смысл разный.</strong></td>
     </tr>
     <tr>
       <td>Выделить текст курсивом</td>
-      <td><code><i>Я написан курсивом</i></code></td>
+      <td><code>&#060;i>Я написан курсивом</i></code></td>
       <td><i>Тоже самое с курсивом</i></td>
     </tr>
     <tr>
       <td>Сделать смысловой акцент</td>
-      <td><code><em>Смысловой акцент</em></code></td>
+      <td><code>&#060;em>Смысловой акцент</em></code></td>
       <td><em>Визуально одиноково, а смысл разный</em></td>
     </tr>
     <tr>
       <td>Вставить ссылку</td>
-      <td><code><a href="http://netology.ru/">Нетология</a></code></td>
+      <td><code>&#060;a href="http://netology.ru/">Нетология</a></code></td>
       <td><a href="http://netology.ru">Кликать сюда</a></td>
     </tr>
     <tr>
     <td>Вставить картинку</td>
-      <td><code><img src="img/no-foto.jpg" alt="картинка"></code></td>
+      <td><code>&#060;img src="img/no-foto.jpg" alt="картинка"></code></td>
       <td><img src="../../img/no-photo.png" alt="Нет фото"></td>
     </tr>
     <tr>
@@ -79,7 +79,7 @@
       <td>
         <pre>
           <code>
-            <figure>
+            &#060;figure>
                 <img src="images/no-photo.png" alt="Нет фото">
                 <figcaption>Нет фото</figcaption>
               </figure>
@@ -96,13 +96,13 @@
     <tr>
       <td>Задать класс тегу</td>
       <td>
-        <code><p class="new">Абзац с классом</p></code>
+        <code>&#060;p class="new">Абзац с классом</p></code>
       </td>
       <td>В CSS это выглядит вот <a href="#new">так</a></td>
     </tr>
     <tr>
       <td>Задать идентификатор тегу</td>
-      <td><code><p id="unique">Абзац с идентификатором</p></code></td>
+      <td><code>&#060;p id="unique">Абзац с идентификатором</p></code></td>
       <td>В CSS это выглядит вот <a href="#unique">так</a></td>
     </tr>
     <tr>
@@ -110,7 +110,7 @@
       <td>
         <pre>
           <code>
-            <ul>
+            &#060;ul>
               <li>Певый пункт</li>
               <li>Второй пункт</li>
               <li>Третий пункт</li>
@@ -131,7 +131,7 @@
       <td>
         <pre>
           <code>
-            <ol>
+            &#060;ol>
               <li>Певый пункт</li>
               <li>Второй пункт</li>
               <li>Третий пункт</li>
@@ -152,7 +152,7 @@
       <td>
         <pre>
           <code>
-            <ol start="3">
+            &#060;ol start="3">
             ...
             </ol>
           </code>
@@ -171,7 +171,7 @@
       <td>
         <pre>
           <code>
-            <dl>
+            &#060;dl>
               <dt>Первое определение</dt>
               <dd>Расшифровка первого определения</dd>
               <dt>Второе определение</dt>
@@ -194,7 +194,7 @@
         <td>
           <pre>
             <code>
-              <ol>
+              &#060;ol>
                 <li>Пункт списка
                   <ul>
                     <li>Пункт вложенного списка</li>
